@@ -318,3 +318,11 @@ __vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
 trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git add .
+git commit -m " learning SQL by Build a Student Database: Part 1"
+git push -u origin main
+git remote -v
+clear
+git remote -v
+git remote set-url origin https://github.com/gabiro1/learn-sql-by-building-a-student-database-part-1.git
+git remote -v
+git add .
